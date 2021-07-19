@@ -1,0 +1,124 @@
+inherited frmNPS_iPhone4in: TfrmNPS_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 320.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 320.000000000000000000
+    end
+    inherited btnNext: TSpeedButton
+      Position.X = 272.000000000000000000
+    end
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 320.000000000000000000
+    Size.Height = 500.000000000000000000
+    Sizes = (
+      320s
+      500s
+      320s
+      500s
+      320s
+      500s
+      320s
+      500s
+      320s
+      500s
+      320s
+      500s)
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image1: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label1: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle2: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image2: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label2: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited btnSim: TButton
+          TabOrder = 4
+        end
+      end
+    end
+    inherited TabItem3: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle3: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image3: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label3: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabItem4: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle4: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image4: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label4: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabItem5: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle5: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image5: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label5: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabItem6: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle6: TRectangle
+        Size.Width = 320.000000000000000000
+        Size.Height = 500.000000000000000000
+        inherited Image6: TImage
+          Size.Width = 280.000000000000000000
+        end
+        inherited Label6: TLabel
+          Size.Width = 320.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+  end
+end

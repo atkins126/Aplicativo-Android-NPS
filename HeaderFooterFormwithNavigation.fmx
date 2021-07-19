@@ -1,0 +1,672 @@
+object frmNPS: TfrmNPS
+  Left = 0
+  Top = 0
+  Caption = 'HeaderFooter'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object TopToolBar: TToolBar
+    Anchors = []
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBarLabel: TLabel
+      Action = TitleAction
+      Align = Contents
+      Enabled = True
+      Size.Width = 384.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+    end
+    object btnBack: TSpeedButton
+      Action = PreviousTabAction1
+      Align = MostLeft
+      Enabled = True
+      ImageIndex = -1
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+    end
+    object btnNext: TSpeedButton
+      Action = NextTabAction1
+      Align = MostRight
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'nexttoolbutton'
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Size.Width = 384.000000000000000000
+    Size.Height = 519.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 5
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      384s
+      519s
+      384s
+      519s
+      384s
+      519s
+      384s
+      519s
+      384s
+      519s
+      384s
+      519s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Caption Tab Item #1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image1: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 
+            'Em uma escala de 1 a 10, quanto voc'#234' indicaria nossos produtos a' +
+            ' um amigo(a)?'
+          TabOrder = 10
+        end
+        object btnQ1: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 344.000000000000000000
+          TabOrder = 11
+          Text = '1'
+        end
+        object btnQ10: TButton
+          Position.X = 56.000000000000000000
+          Position.Y = 432.000000000000000000
+          TabOrder = 9
+          Text = '10'
+        end
+        object btnQ2: TButton
+          Position.X = 120.000000000000000000
+          Position.Y = 344.000000000000000000
+          TabOrder = 8
+          Text = '2'
+        end
+        object btnQ3: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 392.000000000000000000
+          TabOrder = 7
+          Text = '3'
+        end
+        object btnQ4: TButton
+          Position.X = 104.000000000000000000
+          Position.Y = 376.000000000000000000
+          TabOrder = 5
+          Text = '4'
+        end
+        object btnQ6: TButton
+          Position.X = 120.000000000000000000
+          Position.Y = 392.000000000000000000
+          TabOrder = 4
+          Text = '6'
+        end
+        object btnQ7: TButton
+          Position.X = 296.000000000000000000
+          Position.Y = 400.000000000000000000
+          TabOrder = 3
+          Text = '7'
+        end
+        object btnQ8: TButton
+          Position.X = 288.000000000000000000
+          Position.Y = 352.000000000000000000
+          TabOrder = 2
+          Text = '8'
+        end
+        object btnQ9: TButton
+          Position.X = 216.000000000000000000
+          Position.Y = 392.000000000000000000
+          TabOrder = 1
+          Text = '9'
+        end
+        object btnQ5: TButton
+          Position.X = 208.000000000000000000
+          Position.Y = 344.000000000000000000
+          TabOrder = 6
+          Text = '5'
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Caption Tab Item #2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image2: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Voc'#234' encontrou os produtos que precisava na nossa loja?'
+          TabOrder = 2
+        end
+        object btnSim: TButton
+          Position.X = 240.000000000000000000
+          Position.Y = 352.000000000000000000
+          TabOrder = 3
+          Text = 'SIM'
+        end
+        object btnNao: TButton
+          Position.X = 48.000000000000000000
+          Position.Y = 352.000000000000000000
+          TabOrder = 1
+          Text = 'N'#195'O'
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle3: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image3: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label3: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 
+            'De 1 a 10, qual seria a nota que voc'#234' d'#225' ao nosso atendimento ao' +
+            ' cliente?'
+          TabOrder = 1
+        end
+      end
+      object btnA1: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 352.000000000000000000
+        TabOrder = 11
+        Text = '1'
+      end
+      object btnA10: TButton
+        Position.X = 56.000000000000000000
+        Position.Y = 427.000000000000000000
+        TabOrder = 9
+        Text = '10'
+      end
+      object btnA2: TButton
+        Position.X = 128.000000000000000000
+        Position.Y = 352.000000000000000000
+        TabOrder = 8
+        Text = '2'
+      end
+      object btnA3: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 400.000000000000000000
+        TabOrder = 7
+        Text = '3'
+      end
+      object btnA4: TButton
+        Position.X = 112.000000000000000000
+        Position.Y = 384.000000000000000000
+        TabOrder = 5
+        Text = '4'
+      end
+      object btnA5: TButton
+        Position.X = 216.000000000000000000
+        Position.Y = 352.000000000000000000
+        TabOrder = 6
+        Text = '5'
+      end
+      object btnA6: TButton
+        Position.X = 128.000000000000000000
+        Position.Y = 400.000000000000000000
+        TabOrder = 4
+        Text = '6'
+      end
+      object btnA7: TButton
+        Position.X = 304.000000000000000000
+        Position.Y = 408.000000000000000000
+        TabOrder = 3
+        Text = '7'
+      end
+      object btnA8: TButton
+        Position.X = 296.000000000000000000
+        Position.Y = 360.000000000000000000
+        TabOrder = 2
+        Text = '8'
+      end
+      object btnA9: TButton
+        Position.X = 224.000000000000000000
+        Position.Y = 400.000000000000000000
+        TabOrder = 1
+        Text = '9'
+      end
+    end
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem4'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle4: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image4: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label4: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Como voc'#234' conheceu os nossos produtos?'
+          TabOrder = 1
+        end
+        object btnFacebook: TButton
+          Position.X = 80.000000000000000000
+          Position.Y = 328.000000000000000000
+          TabOrder = 7
+          Text = 'Facebook'
+        end
+        object btnWhatsApp: TButton
+          Position.X = 168.000000000000000000
+          Position.Y = 376.000000000000000000
+          TabOrder = 5
+          Text = 'WhatsApp'
+        end
+        object btnAmigos: TButton
+          Position.X = 168.000000000000000000
+          Position.Y = 328.000000000000000000
+          TabOrder = 4
+          Text = 'Amigos'
+        end
+        object btnOutros: TButton
+          Position.X = 256.000000000000000000
+          Position.Y = 376.000000000000000000
+          TabOrder = 3
+          Text = 'Outros'
+        end
+        object btnInstagram: TButton
+          Position.X = 256.000000000000000000
+          Position.Y = 328.000000000000000000
+          TabOrder = 2
+          Text = 'Instagram'
+        end
+        object btnAnunc: TButton
+          Position.X = 80.000000000000000000
+          Position.Y = 376.000000000000000000
+          TabOrder = 6
+          Text = 'An'#250'ncios'
+        end
+      end
+    end
+    object TabItem5: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem5'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle5: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image5: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label5: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 
+            'De 1 a 5, quais as chances de voc'#234' continuar comprando nossos pr' +
+            'odutos?'
+          TabOrder = 1
+        end
+      end
+      object btnB1: TButton
+        Position.X = 40.000000000000000000
+        Position.Y = 360.000000000000000000
+        TabOrder = 11
+        Text = '1'
+      end
+      object btnB2: TButton
+        Position.X = 136.000000000000000000
+        Position.Y = 360.000000000000000000
+        TabOrder = 8
+        Text = '2'
+      end
+      object btnB3: TButton
+        Position.X = 40.000000000000000000
+        Position.Y = 408.000000000000000000
+        TabOrder = 7
+        Text = '3'
+      end
+      object btnB4: TButton
+        Position.X = 136.000000000000000000
+        Position.Y = 408.000000000000000000
+        TabOrder = 5
+        Text = '4'
+      end
+      object btnB5: TButton
+        Position.X = 224.000000000000000000
+        Position.Y = 360.000000000000000000
+        TabOrder = 6
+        Text = '5'
+      end
+    end
+    object TabItem6: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem6'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle6: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF085008
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Sides = []
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        object Image6: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Top
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 344.000000000000000000
+          Size.Height = 169.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label6: TLabel
+          Align = Top
+          StyledSettings = [Family]
+          Position.Y = 209.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 128.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 35.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Agradecemos pelas informa'#231#245'es. Volte sempre!'
+          TabOrder = 1
+        end
+        object Button1: TButton
+          Position.X = 144.000000000000000000
+          Position.Y = 288.000000000000000000
+          TabOrder = 2
+          Text = 'Button1'
+        end
+      end
+      object Image7: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Position.X = 64.000000000000000000
+        Position.Y = 304.000000000000000000
+        Size.Width = 266.000000000000000000
+        Size.Height = 233.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 288
+    Top = 64
+    object TitleAction: TControlAction
+      Category = 'Tab'
+      Text = 'TitleAction'
+      OnUpdate = TitleActionUpdate
+    end
+    object PreviousTabAction1: TPreviousTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+      ShortCut = 137
+    end
+    object NextTabAction1: TNextTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+    end
+  end
+end

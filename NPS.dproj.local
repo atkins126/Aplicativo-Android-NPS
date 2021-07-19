@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2021/07/09 11:35:40.000.327,C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Kitanda NPS\NPS.dproj=C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Kitanda NPS\HeaderFooterNavigation.dproj</Transaction>
+    <Transaction>2021/07/09 16:57:35.000.787,=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 16:57:53.000.716,C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.pas=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\dmNPS.pas</Transaction>
+    <Transaction>2021/07/09 16:57:53.000.716,C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.dfm=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\dmNPS.dfm</Transaction>
+    <Transaction>2021/07/09 18:01:11.000.840,=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 18:02:13.000.080,=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 18:02:51.000.750,C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.fmx=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Info.fmx</Transaction>
+    <Transaction>2021/07/09 18:02:51.000.750,C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Unit1.pas=C:\Users\Álvaro Felipe\Desktop\Kitanda NPS\Info.pas</Transaction>
+  </Transactions>
+</BorlandProject>
